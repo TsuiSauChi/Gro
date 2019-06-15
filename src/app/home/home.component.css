@@ -1,0 +1,54 @@
+.grassbackground {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+        
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+.wateringcan {
+    position: fixed;
+    width: 125px;
+    height: 150px;
+    top: 65%;
+    right: 5%;
+}
+
+.seedpacket{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 83%;
+    right: 4.75%;
+}
+
+.seeding1{
+    position: fixed;
+    width: 125px;
+    height: 150px;
+    top: 30%;
+    left: 30%;
+}
+
+.seeding2{
+    position: fixed;
+    width: 125px;
+    height: 150px;
+    top: 60%;
+    left: 60%;
+}
+
+.shop{
+    width: 200px;
+    height: 100px;
+    border-radius: 20%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
